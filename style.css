@@ -1,0 +1,34 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+img{
+  width: 250px;
+  aspect-ratio: 1/1;
+}
+body{
+  overflow-x: hidden;
+}
+.cart-box{
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  border-radius: 1rem;
+}
+.cart-img{
+  margin-bottom: 10px;
+  transform: scale(0.7);
+  transition: 0.3s;
+}
+.cart-box:hover .cart-img{
+  transform: scale(1);
+}
+.detail{
+  overflow: hidden;
+  height: 20px;
+}
+.title{
+  height: 30px;
+  overflow: hidden;
+}
